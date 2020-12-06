@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Portfolio from "./pages/Portfolio"
 import SocialMedia from "./pages/SocialMedia"
 import NavTabs from "./components/NavTabs"
+import FooterPage from "./components/Footer"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/socialMedia" component={SocialMedia} />
       </div>
+      <FooterPage/>
     </Router>
   );
 };

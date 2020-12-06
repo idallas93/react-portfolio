@@ -1,12 +1,15 @@
 import React from "react";
+import { Card } from "react-bootstrap";
 import "./style.css";
 
-function Footer() {
+function FooterPage() {
   return (
-    <footer className="footer">
-      <span>Wikipedia Searcher</span>
-    </footer>
+    <Card className="text-center">
+  <Card.Footer className="text-muted">Isaac's Portfolio</Card.Footer>
+</Card>
   );
 }
 
-export default Footer;
+export default FooterPage;
+
+
