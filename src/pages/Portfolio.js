@@ -12,13 +12,13 @@ class Portfolio extends Component {
       <Container>
         <CardGroup>
           <Card>
-            <Card.Img variant="top" src="https://www.kindpng.com/picc/m/80-808011_check-book-icon-png-download-budget-clipart-transparent.png" />
+            <Card.Img variant="top" src="https://lh3.googleusercontent.com/proxy/SOBZs49G6302ZNbUJgf8E8_wvmBWE6dyPPsH7Q0jowmTtwu67Ea_4t0noNjKLpugdNQkbHc3OpXoj9UHXi1qClW6Pq44m0nPq18F" />
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/PWA-Budget-Tracker"> Budget Tracker </a> 
+              <a href="https://github.com/idallas93/project-three-SKRIK"> Hot Parkr </a> 
               </Card.Title>
               <Card.Text>
-              This is a Budget tracker app that works offline. The user is be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they can populate the total when brought back online.
+              A social media app for dog owners to  set up dog play dates to socialize their pets.
               </Card.Text>
             </Card.Body>
             <Card.Footer>
