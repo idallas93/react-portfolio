@@ -1,0 +1,95 @@
+.nav-link-one {
+  color: white;
+}
+
+/* .card-img-top {
+  height: 300px;
+  width: 300px
+} */
+
+#home-jumbo {
+  width: 35vw;
+  margin-left: 55px;
+}
+
+.jumbo-div {
+  margin-top: 7vw;
+}
+
+.home-container {
+  height: 45vw;
+  margin-left: 15vw;
+  position: relative;
+};
+
+@media (min-width: 1px) {
+  .jumbo-header { 
+    font-size: .9rem;
+    color: #f7c331;
+  };
+};
+
+@media (min-width: 1px) {
+  .jumbo-subtitle { 
+    font-size: .1rem;
+    color: #fdfcfa;
+  };
+}
+
+@media (min-width: 576px) {
+  .jumbo-header { 
+    font-size: 1.3rem;
+    color: #f7c331;
+  };
+};
+
+@media (min-width: 576px) {
+  .jumbo-subtitle { 
+    font-size: .3rem;
+    color: #fdfcfa;
+  };
+};
+
+@media (min-width: 768px) {
+  .jumbo-header {
+    color: #f7c331;
+    font-size: 1.7rem;
+  };
+}
+
+@media (min-width: 768px) {
+  .jumbo-subtitle { 
+    font-size: 1rem;
+    color: #fdfcfa;
+  };
+}
+
+
+@media (min-width: 992px) {
+  .jumbo-header {
+    color: #f7c331;
+    font-size: 2.1rem;
+  };
+}
+
+@media (min-width: 992px) {
+  .jumbo-subtitle { 
+    font-size: 1.1rem;
+    color: #fdfcfa;
+  };
+}
+
+@media (min-width: 1200px) {
+  .jumbo-header {
+    color: #f7c331;
+    font-size: 2.5rem;
+  };
+}
+
+@media (min-width: 1200px) {
+  .jumbo-subtitle { 
+    font-size: 1.5rem;
+    color: #fdfcfa;
+  };
+}
+

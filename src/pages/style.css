@@ -6,3 +6,13 @@
   height: 300px;
   width: 300px
 }
+
+.home-jumbo {
+  /* height: 100%;
+  margin-bottom: 50px */
+}
+
+.home-container {
+  height: 100vw;
+  margin-bottom: 50px
+}

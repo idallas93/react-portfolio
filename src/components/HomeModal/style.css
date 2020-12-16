@@ -1,0 +1,48 @@
+.modal-button {
+    margin: 5px;
+    color: #6B78AF !important;
+    font-style: bold !important;
+}
+
+.about-me-modal {
+    margin: 25px;
+}
+
+/* .modal-button:hover {
+    color: white !important;
+} */
+/* @media (min-width: 1px) {
+    .modal-button { 
+      height: 1rem;
+    };
+  };
+   */
+   /* @media (min-width: 1200px) {
+    .modal-button{
+      height: 2.3rem !important;
+    };
+  };
+
+  @media (min-width: 992px) {
+    .modal-button {
+        height: 1.9rem ;
+    };
+  };
+
+  @media (min-width: 768px) {
+    .modal-button {
+        height: 1.4rem;
+    };
+  };
+  
+  
+  @media (min-width: 576px) {
+    .modal-button{ 
+        height: .9rem;
+    };
+  };
+   */
+
+ 
+
+  

@@ -1,0 +1,16 @@
+.nav-link {
+    color: #6B78AF;    
+  }
+
+  .nav-link:active {
+      color: #F7C331
+
+  }
+
+  .nav-link:hover {
+    color: #F7C331
+}
+
+/* .nav {
+  background-color: #f8f9fa
+} */

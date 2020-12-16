@@ -10,3 +10,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
 }
+
+.App {
+  background-image: url("./pages/Assets/coding.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  text-align: center;
+}
