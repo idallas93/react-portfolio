@@ -11,40 +11,56 @@
 .modal-title {
    color: #6B78AF;
 }
-/* .modal-button:hover {
-    color: white !important;
-} */
-/* @media (min-width: 1px) {
-    .modal-button { 
-      height: 1rem;
-    };
-  };
-   */
-   /* @media (min-width: 1200px) {
-    .modal-button{
-      height: 2.3rem !important;
-    };
-  };
 
-  @media (min-width: 992px) {
-    .modal-button {
-        height: 1.9rem ;
-    };
-  };
 
-  @media (min-width: 768px) {
-    .modal-button {
-        height: 1.4rem;
-    };
-  };
-  
-  
-  @media (min-width: 576px) {
-    .modal-button{ 
-        height: .9rem;
-    };
-  };
-   */
+@media only screen and (max-width: 600px) {
+  .modal-button {
+    height: 30px;
+    font-size: 6px;
+    padding: revert;
+  }
+}
+
+/*Small devices (large smartphones and portrait tablets >= 600px)*/
+
+@media only screen and (min-width: 600px) {
+  .modal-button {
+    height: 25px;
+    font-size: 10px;
+    padding: revert;
+  }
+}
+
+/*Medium devices (landscape tablets >= 768px)*/
+
+@media only screen and (min-width: 768px) {
+  .modal-button {
+    height: 30px;
+    font-size: 13px;
+    padding: none;
+  }
+}
+
+/*Large devices (laptops and desktops, >=600px)*/
+
+@media only screen and (min-width: 992px) {
+  .modal-button {
+    height: 40px;
+    font-size: 13px;
+    padding: revert;
+  }
+}
+
+/*Extra Large devices (laptops and desktops <600px)*/
+
+@media only screen and (min-width: 1200px) {
+  .modal-button {
+    height: 40px;
+    font-size: 16px;
+    padding: revert;
+  }
+} ;
+
 
  
 

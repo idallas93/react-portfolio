@@ -8,11 +8,8 @@
 }
 
 .home-jumbo {
-  /* height: 100%;
-  margin-bottom: 50px */
+  padding: none;
+  margin: none;
 }
 
-.home-container {
-  height: 100vw;
-  margin-bottom: 50px
-}
+

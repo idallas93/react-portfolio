@@ -7,7 +7,7 @@ function ContactInfo() {
     <ListGroup>
       <ListGroup.Item>
       <img
-        src="https://assets.stickpng.com/thumbs/5847fafdcef1014c0b5e48ce.png"
+        src="https://png.pngtree.com/png-vector/20191105/ourmid/pngtree-email-icon-in-flat-style-png-image_1957181.jpg"
         id="gmail-logo"
         width="25"
         height="25"

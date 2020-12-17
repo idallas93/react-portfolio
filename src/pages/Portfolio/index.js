@@ -19,7 +19,7 @@ class Portfolio extends Component {
       <Container className="portfolio-container">
         <CardGroup>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={HotParkr} height="200px" width="200px"/>
+            <Card.Img variant="top" src={HotParkr} height="150px" width="200px"/>
             <Card.Body>
               <Card.Title>
               <a href="https://project-three-skirk.herokuapp.com/"> HotParkr App</a> 
@@ -34,7 +34,7 @@ class Portfolio extends Component {
             </Card.Footer>
           </Card>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={HotDawgr} height="200px" width="200px"/>
+            <Card.Img variant="top" src={HotDawgr} height="150px" width="200px"/>
             <Card.Body>
               <Card.Title>
               <a href="https://project-two-asika.herokuapp.com/"> HotDawgr App </a> 
@@ -49,7 +49,7 @@ class Portfolio extends Component {
             </Card.Footer>
           </Card>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={Burger} height="200px" width="200px"/>
+            <Card.Img variant="top" src={Burger} height="150px" width="200px"/>
             <Card.Body>
               <Card.Title>
               <a href="https://calm-temple-91222.herokuapp.com/"> Burger App </a> 
@@ -66,7 +66,7 @@ class Portfolio extends Component {
         </CardGroup>
         <CardGroup>
           <Card className="portfolio-card"> 
-            <Card.Img variant="top" src={Jsquiz} height="200px" width="200px" />
+            <Card.Img variant="top" src={Jsquiz} height="150px" width="200px" />
             <Card.Body>
               <Card.Title>
               <a href="https://idallas93.github.io/Javascript-Quiz/"> Javascript Quiz App</a> 
@@ -81,7 +81,7 @@ class Portfolio extends Component {
             </Card.Footer>
           </Card>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={Directory} height="200px" width="200px"/>
+            <Card.Img variant="top" src={Directory} height="150px" width="200px"/>
             <Card.Body>
               <Card.Title>
               <a href="https://www.youtube.com/watch?v=CNgu8uQm5dw&feature=youtu.be&ab_channel=IsaacDallas"> Employee Directory Program Video </a> 
@@ -96,7 +96,7 @@ class Portfolio extends Component {
             </Card.Footer>
           </Card>
           <Card className="portfolio-card">
-            <Card.Img variant="top" src={Weather} height="200px" width="200px"/>
+            <Card.Img variant="top" src={Weather} height="150px" width="200px"/>
             <Card.Body>
               <Card.Title>
               <a href="https://github.com/idallas93/Weather-Application"> Weather Application </a> 

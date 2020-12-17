@@ -14,7 +14,7 @@ const App = () => {
       <div className="image-opacity">
         <Router>
           <NavTabs />
-          <div className="container">
+          <div id="app-container" className="container">
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />
             <Route exact path="/about" component={About} />

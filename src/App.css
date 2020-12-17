@@ -10,8 +10,9 @@
  .App{
   text-align: right;
   background-image: url("./pages/Assets/coding.png");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
+  height: 20vw
 }
 
 
@@ -36,6 +37,10 @@
   color: white;
 }
 
+#app-container {
+  margin-left: 0px;
+  height:  45vw
+}
 .App-link {
   color: #61dafb;
 }
