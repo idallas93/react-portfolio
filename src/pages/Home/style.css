@@ -32,8 +32,9 @@
     color: #6b78af;
   }
   #home-jumbo {
-    width: 50vw;
-    margin-top: 70vw
+    width: 65vw;
+    margin-top: 70vw;
+    margin-left: -10vw
   }
 }
 
