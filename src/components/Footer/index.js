@@ -5,7 +5,7 @@ import "./style.css";
 function FooterPage() {
   return (
     <Card className="text-center">
-  <Card.Footer className="text-muted">Isaac's Portfolio</Card.Footer>
+  <Card.Footer className="text-muted">Dallas.Isaac1@gmail.com</Card.Footer>
 </Card>
   );
 }
