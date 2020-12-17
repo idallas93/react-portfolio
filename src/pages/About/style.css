@@ -1,9 +1,8 @@
 
   
-/* .card-img-top {
-  height: 300px;
-  width: 300px
-} */
+.card-img-top {
+  margin-right: 50px
+}
 
 .home-jumbo {
   /* height: 100%;
@@ -16,6 +15,5 @@
 } */
 
 h1 {
-  margin-left: 168px;
   color: #F7882F;
 }

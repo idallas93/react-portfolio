@@ -11,11 +11,7 @@ class About extends Component {
   render() {
     return (
       <Container>
-        <Jumbotron fluid>
-          <h1>Welcome to my page</h1>
-          <p></p>
-        </Jumbotron>
-        <Card style={{ width: "25rem", marginLeft: "150px", marginRight: "10px", marginTop: "10px", marginBottom: "25px", }}>
+        <Card style={{ width: '20rem', margin: '25px'}}>
           <Card.Img
             variant="top"
             src="https://media-exp1.licdn.com/dms/image/C4D03AQEInA6RXC24PA/profile-displayphoto-shrink_400_400/0/1603938258171?e=1613001600&v=beta&t=857STUN5rpIKyiJ2kOsPYFlb9DLyaLWIADbR6hM5PjA"
