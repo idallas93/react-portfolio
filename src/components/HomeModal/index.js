@@ -27,11 +27,24 @@ function HomeModal() {
         aria-labelledby="example-modal-sizes-title-lg"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg">
-            Large Modal
+          <Modal.Title id="example-modal-sizes-title-lg" className="modal-title">
+            About Me
           </Modal.Title>
         </Modal.Header>
         <Modal.Body> <About/> </Modal.Body>
+      </Modal>
+      <Modal
+        size="lg"
+        show={portfolioShow}
+        onHide={() => setPortfolioShow(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg" className="modal-title">
+            Portfolio
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body> <Portfolio/> </Modal.Body>
       </Modal>
       </>
     );

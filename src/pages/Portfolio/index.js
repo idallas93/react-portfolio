@@ -1,6 +1,13 @@
 import React, { Component } from "react";
 import { Jumbotron, Container, Card, Button, CardGroup } from "react-bootstrap";
 import "./style.css";
+import HotParkr from "../Assets/HotParkr.png";
+import HotDawgr from "../Assets/HotDawgr.png";
+import Jsquiz from "../Assets/Jsquiz.png";
+import Burger from "../Assets/Burger.png";
+import Directory from "../Assets/Directory.png";
+import Weather from "../Assets/Weather.png";
+
 
 class Portfolio extends Component {
   state = {
@@ -9,93 +16,98 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <Container>
+      <Container className="portfolio-container">
         <CardGroup>
-          <Card>
-            <Card.Img variant="top" src="" />
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={HotParkr} height="200px" width="200px"/>
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/project-three-SKRIK"> Hot Parkr </a> 
+              <a href="https://project-three-skirk.herokuapp.com/"> HotParkr App</a> 
               </Card.Title>
               <Card.Text>
               A social media app for dog owners to  set up dog play dates to socialize their pets.
               </Card.Text>
+              <a href="https://github.com/idallas93/HotParkr-Application"> HotParkr Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://www.kindpng.com/picc/m/431-4311924_clipart-puppy-animated-transparent-background-dog-clipart-hd.png" />
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={HotDawgr} height="200px" width="200px"/>
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/project-two-group"> Hot Dawgr </a> 
+              <a href="https://project-two-asika.herokuapp.com/"> HotDawgr App </a> 
               </Card.Title>
               <Card.Text>
                 This is the prototype for a dog play date matching app, think tinder but for dog owners to arrange dog play dates. This app has a working backend for user profiles built using MongoDB
               </Card.Text>
+              <a href="https://github.com/idallas93/HotDawgr-Application"> HotDawgr Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://www.kindpng.com/picc/m/549-5499625_open-burger-png-transparent-png.png" />
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={Burger} height="200px" width="200px"/>
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/burger-app"> Burger App </a> 
+              <a href="https://calm-temple-91222.herokuapp.com/"> Burger App </a> 
               </Card.Title>
               <Card.Text>
               This app is a burger logger that uses MySQL, Node, Express, Handlebars and a homemade ORM. This app follows a MVC design pattern using Node and MySQL to query and route data/ Handlebars to generate HTML.
               </Card.Text>
+              <a href="https://github.com/idallas93/burger-app"> Burger Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
         </CardGroup>
         <CardGroup>
-          <Card>
-            <Card.Img variant="top" src="https://www.clipartkey.com/mpngs/m/37-376131_test-clipart-multiple-choice-test-multiple-choice-questions.png" />
+          <Card className="portfolio-card"> 
+            <Card.Img variant="top" src={Jsquiz} height="200px" width="200px" />
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/02-Homework-web-apis"> JavaScript Quiz </a> 
+              <a href="https://idallas93.github.io/Javascript-Quiz/"> Javascript Quiz App</a> 
               </Card.Title>
               <Card.Text>
-              This app is a timed quiz on JavaScript fundamentals that stores high scores, this app was made using vanilla javascript.
-
+              This app is a timed quiz on JavaScript fundamentals that stores high scores, this app was made using vanilla Javascript.
               </Card.Text>
+              <a href="https://github.com/idallas93/02-Homework-web-apis"> Javascript Quiz Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://www.pngitem.com/pimgs/m/432-4325142_euclidean-vector-directory-computer-file-transparent-background-file.png" />
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={Directory} height="200px" width="200px"/>
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/template-engine"> Employee Directory </a> 
+              <a href="https://www.youtube.com/watch?v=CNgu8uQm5dw&feature=youtu.be&ab_channel=IsaacDallas"> Employee Directory Program Video </a> 
               </Card.Title>
               <Card.Text>
               This application is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. This app also includes tests that are all passed.
               </Card.Text>
+              <a href="https://github.com/idallas93/template-engine"> Employee Directory Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
-          <Card>
-            <Card.Img variant="top" src="https://scx2.b-cdn.net/gfx/news/hires/2019/weatherforec.jpg" />
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={Weather} height="200px" width="200px"/>
             <Card.Body>
               <Card.Title>
-              <a href="https://github.com/idallas93/WeatherApplication-"> Weather Application </a> 
+              <a href="https://github.com/idallas93/Weather-Application"> Weather Application </a> 
               </Card.Title>
               <Card.Text>
               This is an app that allows a user to see the weather outlook for multiple cities by searching for the city in the search bar. The user can also see the five day forcast for that city.
               </Card.Text>
+              <a href="https://github.com/idallas93/WeatherApplication-"> Weather Dashboard Repository </a> 
             </Card.Body>
             <Card.Footer>
-              <small className="text-muted">Last updated 3 mins ago</small>
+              <small className="text-muted">Last updated 16Dec2020</small>
             </Card.Footer>
           </Card>
         </CardGroup>

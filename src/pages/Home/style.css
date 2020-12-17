@@ -25,14 +25,14 @@
 @media (min-width: 1px) {
   .jumbo-header { 
     font-size: .9rem;
-    color: #f7c331;
+    color: #F7882F;
   };
 };
 
 @media (min-width: 1px) {
   .jumbo-subtitle { 
     font-size: .1rem;
-    color: #fdfcfa;
+    color: #DCC7AA;
   };
 }
 
@@ -46,13 +46,13 @@
 @media (min-width: 576px) {
   .jumbo-subtitle { 
     font-size: .3rem;
-    color: #fdfcfa;
+    color: #DCC7AA;
   };
 };
 
 @media (min-width: 768px) {
   .jumbo-header {
-    color: #f7c331;
+    color: #F7882F;
     font-size: 1.7rem;
   };
 }
@@ -60,14 +60,14 @@
 @media (min-width: 768px) {
   .jumbo-subtitle { 
     font-size: 1rem;
-    color: #fdfcfa;
+    color: #DCC7AA;
   };
 }
 
 
 @media (min-width: 992px) {
   .jumbo-header {
-    color: #f7c331;
+    color: #F7882F;
     font-size: 2.1rem;
   };
 }
@@ -75,13 +75,13 @@
 @media (min-width: 992px) {
   .jumbo-subtitle { 
     font-size: 1.1rem;
-    color: #fdfcfa;
+    color: #DCC7AA;
   };
 }
 
 @media (min-width: 1200px) {
   .jumbo-header {
-    color: #f7c331;
+    color: #F7882F;
     font-size: 2.5rem;
   };
 }
@@ -89,7 +89,7 @@
 @media (min-width: 1200px) {
   .jumbo-subtitle { 
     font-size: 1.5rem;
-    color: #fdfcfa;
+    color: #6B78AF
   };
 }
 

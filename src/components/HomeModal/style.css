@@ -8,6 +8,9 @@
     margin: 25px;
 }
 
+.modal-title {
+   color: #6B78AF;
+}
 /* .modal-button:hover {
     color: white !important;
 } */
