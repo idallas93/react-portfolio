@@ -1,6 +1,5 @@
 import "./style.css";
 import { Carousel, Button } from "react-bootstrap";
-import Stella1 from "../../pages/Assets/Stella1.png"
 import Stella2 from "../../pages/Assets/Stella2.png";
 import Stella3 from "../../pages/Assets/Stella3.png";
 import Stella4 from "../../pages/Assets/Stella4.png";
@@ -11,17 +10,6 @@ function StellaCarousel() {
 
   return (
 <Carousel>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={Stella1}
-      alt="First slide"
-    />
-    <Carousel.Caption>
-      <h3>Stella in Gowanus</h3>
-      <p>Me in the background</p>
-    </Carousel.Caption>
-  </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
