@@ -2,8 +2,12 @@ import { Link } from "react-router-dom";
 import "./style.css";
 import { Modal, Button } from "react-bootstrap";
 import React, { useState } from "react";
-import About from "../../pages/About"
-import Portfolio from "../../pages/Portfolio"
+import About from "../../pages/About";
+import Portfolio from "../../pages/Portfolio";
+import StellaCarousel from "../../components/StellaCarousel"
+import ContactInfo from "../../components/ContactInfo"
+
+
 
 
 function HomeModal() {
@@ -45,6 +49,34 @@ function HomeModal() {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body> <Portfolio/> </Modal.Body>
+      </Modal>
+      <Modal
+        size="lg"
+        show={stellaPics}
+        onHide={() => setStellaPics(false)}
+        aria-labelledby="example-modal-sizes-title-lg"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-lg" className="modal-title">
+            Stella the Dog!
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body> <StellaCarousel/> </Modal.Body>
+      </Modal>
+      <Modal
+        size="sm"
+        show={smShow}
+        onHide={() => setSmShow(false)}
+        aria-labelledby="example-modal-sizes-title-sm"
+      >
+        <Modal.Header closeButton>
+          <Modal.Title id="example-modal-sizes-title-sm">
+            Contact Information
+          </Modal.Title>
+        </Modal.Header>
+        <Modal.Body>
+          <ContactInfo/>
+        </Modal.Body>
       </Modal>
       </>
     );
