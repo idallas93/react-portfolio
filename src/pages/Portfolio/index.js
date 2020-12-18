@@ -104,7 +104,7 @@ class Portfolio extends Component {
               <Card.Text>
               This is an app that allows a user to see the weather outlook for multiple cities by searching for the city in the search bar. The user can also see the five day forcast for that city.
               </Card.Text>
-              <a href="https://github.com/idallas93/WeatherApplication-"> Weather Dashboard Repository </a> 
+              <a href="https://idallas93.github.io/Weather-Application/"> Weather Dashboard Repository </a> 
             </Card.Body>
             <Card.Footer>
               <small className="text-muted">Last updated 16Dec2020</small>
