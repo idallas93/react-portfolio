@@ -22,9 +22,9 @@ const NavTabs = () => {
           <Link to="/" id="isaac-dallas" className="nav-link">
             Isaac Dallas
           </Link>
-          <Link to="/about" className="nav-link">
+          {/* <Link to="/about" className="nav-link">
             About
-          </Link>
+          </Link> */}
           <Link to="/Portfolio" className="nav-link">
             Portfolio
           </Link>
