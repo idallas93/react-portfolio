@@ -15,9 +15,13 @@
 
 @media only screen and (max-width: 600px) {
   .modal-button {
-    height: 30px;
     font-size: 6px;
-    padding: revert;
+    text-align: center;
+    width: 40vw !important;
+
+  };
+  #modal-button{
+    width: 40vw !important;
   }
 }
 
@@ -28,11 +32,16 @@
     height: 25px;
     font-size: 10px;
     padding: revert;
+    width: 40vw !important;
+
+  };
+
+  #modal-button{
+    width: 40vw !important;
   }
 }
 
 /*Medium devices (landscape tablets >= 768px)*/
-
 @media only screen and (min-width: 768px) {
   .modal-button {
     height: 30px;

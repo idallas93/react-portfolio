@@ -18,10 +18,10 @@ function HomeModal() {
   
     return (
       <>
-        <Button className="modal-button" variant="light" onClick={() => setAboutShow(true)}>About Me</Button>
-        <Button className="modal-button" variant="light" onClick={() => setPortfolioShow(true)}> Portfolio </Button>
-        <Button className="modal-button" variant="light" onClick={() => setStellaPics(true)}> My Dog </Button>
-        <Button className="modal-button" variant="light" onClick={() => setSmShow(true)}> Contact </Button>{' '}
+        <Button id="modal-buton" className="modal-button" variant="light" onClick={() => setAboutShow(true)}>About Me</Button>
+        <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setPortfolioShow(true)}> Portfolio </Button>
+        <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setStellaPics(true)}> My Dog </Button>
+        <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setSmShow(true)}> Contact </Button>{' '}
 
       <Modal
         size="lg"
