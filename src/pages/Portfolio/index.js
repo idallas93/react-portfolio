@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Card, Button, CardGroup } from "react-bootstrap";
+import {  Container, Card, CardGroup } from "react-bootstrap";
 import "./style.css";
 import HotParkr from "../Assets/HotParkr.png";
 import HotDawgr from "../Assets/HotDawgr.png";

@@ -1,5 +1,5 @@
 import "./style.css";
-import { Carousel, Button } from "react-bootstrap";
+import { Carousel } from "react-bootstrap";
 import Stella1 from "../../pages/Assets/Stella1.png";
 import Stella2 from "../../pages/Assets/Stella2.png";
 import Stella3 from "../../pages/Assets/Stella3.png";

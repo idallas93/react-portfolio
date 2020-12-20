@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import "./style.css";
 import { Modal, Button } from "react-bootstrap";
 import React, { useState } from "react";

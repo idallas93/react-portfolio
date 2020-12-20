@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import { Jumbotron, Container } from "react-bootstrap";
 import HomeModal from "../../components/HomeModal"
 import "./style.css";
 

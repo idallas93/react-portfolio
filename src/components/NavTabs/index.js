@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Nav, NavDropdown, Navbar, Button } from "react-bootstrap";
-import Logo from "../../pages/Assets/Logo.png";
+import { Nav, NavDropdown, Navbar} from "react-bootstrap";
 import "./style.css";
 
 const NavTabs = () => {
