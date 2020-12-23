@@ -11,3 +11,8 @@
 .portfolio-card{
     margin: 25px;
 }
+
+.card-title-link {
+    color: #F7882F;
+    font-weight: bold;
+};

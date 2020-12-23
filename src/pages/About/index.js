@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { Container, Card, Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./style.css";
+import AboutMe from "../Assets/AboutMe.png";
+
 
 class About extends Component {
   state = {
@@ -15,12 +17,12 @@ class About extends Component {
           <Card.Img
             width="25%"
             variant="top"
-            src="https://media-exp1.licdn.com/dms/image/C4D03AQEInA6RXC24PA/profile-displayphoto-shrink_400_400/0/1603938258171?e=1613001600&v=beta&t=857STUN5rpIKyiJ2kOsPYFlb9DLyaLWIADbR6hM5PjA"
+            src={AboutMe}
           />
           <Card.Body>
             <Card.Title>Isaac Dallas</Card.Title>
             <Card.Text>
-              Fullstack Web Developer based in Brooklyn, New York. I like to learn new technologies, run, and spend time with my black lab, Stella. Technical skills include React, React.js, Javascript, MongoDB , Node.Js., Express,  jQuery,  JSX, GIT, GitHub,  MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap, React Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, React Hooks, JSON, Sequelize
+              Fullstack Web Developer based in Brooklyn, New York. I like to learn new technologies, run, and spend time with my black lab, Stella. Technical skills include React, React.js, Javascript, MongoDB , Node.Js., Express,  jQuery,  JSX, GIT, GitHub,  MySQL, Mongoose, Handlebars, HTML5, CSS3, Bootstrap, React Bootstrap, Materialize, APIs, Heroku, Terminal, AJAX, Restful API, ES6, React Hooks, JSON, and Sequelize.
             </Card.Text>
             <Button className="about-button">
               <Link to="/Portfolio" className="nav-link-one">

@@ -7,6 +7,7 @@ const NavTabs = () => {
   return (
     <Navbar collapseOnSelect expand="lg" variant="light" style={{background: "transparent"}}>
       <Navbar.Brand href="#home">
+        <Link to="/" id="isaac-dallas" className="nav-link">
         <img
         src="https://pngarchive.com/public/uploads/preview/labrador-puppy-png-1001576265834jdhaarwx2n.png"
           alt=""
@@ -14,6 +15,7 @@ const NavTabs = () => {
           height="50"
           className="d-inline-block align-top"
         />
+        </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
       <Navbar.Collapse id="responsive-navbar-nav">
