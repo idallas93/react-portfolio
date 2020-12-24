@@ -16,7 +16,7 @@ class Portfolio extends Component {
 
   render() {
     return (
-      <Container className="portfolio-container" style={{background: "#f5f5f5"}}>
+      <Container className="portfolio-container" style={{background: ""}}>
         <CardGroup>
           <Card className="portfolio-card">
             <Card.Img variant="top" src={HotParkr} height="150px" width="200px"/>

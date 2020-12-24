@@ -26,9 +26,9 @@ const NavTabs = () => {
           {/* <Link to="/about" className="nav-link">
             About
           </Link> */}
-          <Link to="/Portfolio" className="nav-link">
+          {/* <Link to="/Portfolio" className="nav-link">
             Portfolio
-          </Link>
+          </Link> */}
           <NavDropdown title="Social Media" id="basic-nav-dropdown">
             <NavDropdown.Item href="https://www.linkedin.com/in/isaacjdallas/">
               <img
