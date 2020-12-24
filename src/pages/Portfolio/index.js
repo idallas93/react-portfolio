@@ -25,7 +25,7 @@ class Portfolio extends Component {
               <a className="card-title-link" href="https://project-three-skirk.herokuapp.com/"> HotParkr App</a> 
               </Card.Title>
               <Card.Text>
-              A social media app for dog owners to  set up dog play dates to socialize their pets.
+              A fullstack MERN social media app for dog owners to set up dog play dates and socialize their pets.
               </Card.Text>
               <a className="card-text-link" href="https://github.com/idallas93/HotParkr-Application" style={{color: "#6B78AF", fontWeight: "bold"}}> HotParkr Repository </a> 
             </Card.Body>
@@ -40,7 +40,7 @@ class Portfolio extends Component {
               <a className="card-title-link" href="https://project-two-asika.herokuapp.com/"> HotDawgr App </a> 
               </Card.Title>
               <Card.Text>
-                This is the prototype for a dog play date matching app, think tinder but for dog owners to arrange dog play dates. This app has a working backend for user profiles built using MongoDB
+                This is the prototype for a dog play date matching app, think tinder but for dog owners to arrange dog play dates. This app has a working backend for user profiles built using mySQL/ Sequelize
               </Card.Text>
               <a className="card-text-link" href="https://github.com/idallas93/HotDawgr-Application" style={{color: "#6B78AF", fontWeight: "bold"}}> HotDawgr Repository </a> 
             </Card.Body>
