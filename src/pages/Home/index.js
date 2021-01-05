@@ -13,6 +13,7 @@ class Home extends Component {
       <Container className="home-container" style={{ marginLeft: "15vw" }}>
         <div className="jumbo-div" >
           <Jumbotron id="home-jumbo" style={{ background:"transparent", padding: "none" }} >
+            <div className="home-jumbo-items">
             <p className="jumbo-header">
                 Isaac J. Dallas 
             </p>
@@ -21,6 +22,7 @@ class Home extends Component {
             </p>
             <HomeModal>
             </HomeModal>
+            </div>
           </Jumbotron>
           </div>
       </Container>

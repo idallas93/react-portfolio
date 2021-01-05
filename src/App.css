@@ -49,7 +49,8 @@
 
 #article {
   flex: 2 0px;
-  order: 2
+  order: 2;
+  height: 52vw
 }
 .App-link {
   color: #61dafb;
@@ -131,6 +132,9 @@
 
   .image-opacity{
     height: auto;
-}
+    background-color:rgba(0, 0, 0, .5);
+
+};
+
 }
 

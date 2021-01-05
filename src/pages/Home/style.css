@@ -120,6 +120,26 @@
   }
 
   .home-container {
+    margin-left: 10vw;
+  }
+} ;
+
+@media only screen and (min-width: 1750px) {
+  .jumbo-header {
+    color: #f7882f;
+    font-size: 2.5rem;
+  }
+  .jumbo-subtitle {
+    font-size: 1.5rem;
+    color: #6b78af;
+  }
+  #home-jumbo {
+    width: 40vw;
+    margin-top: 70px;
+    text-align: center;
+  }
+
+  .home-container {
     margin-left: 5vw;
   }
 } ;
