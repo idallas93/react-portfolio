@@ -12,7 +12,7 @@ import coding from "./pages/Assets/coding.png"
 const App = () => {
   return (
     <div className="wrapper">
-    <div className="App" style={{backgroundImage:`url(${coding})`}}>
+    <div className="App" style={{backgroundImage:`url(${coding})`, backgroundSize: "contain"}}>
       <div className="image-opacity">
         <Router>
           <NavTabs className="header"/>
