@@ -33,11 +33,11 @@ function HomeModal() {
         aria-labelledby="example-modal-sizes-title-lg"
       >
         <Modal.Header closeButton>
-          <Modal.Title id="example-modal-sizes-title-lg" className="modal-title">
+          <Modal.Title id="example-modal-sizes-title-lg" className="about-title">
             About Me
           </Modal.Title>
         </Modal.Header>
-        <Modal.Body> <About/> </Modal.Body>
+        <Modal.Body className ='modal-body'> <About/> </Modal.Body>
       </Modal>
       <Modal
         size="lg"

@@ -16,8 +16,48 @@
     margin: 25px;
 }
 
+.about-title {
+   color: #FE5F55;
+  
+}
+
 .modal-title {
-   color: #6B78AF;
+  color: #FE5F55;
+}
+.modal-header{
+  background-color: #BDD5EA;
+  
+  border: none !important
+}
+
+.modal-body {
+  background-color: #BDD5EA !important;
+  /* border: none !important */
+}
+
+
+
+.card {
+
+}
+
+.card-img-top{
+  border: none;
+
+}
+
+.card-body{
+
+}
+
+.card-title{
+
+}
+
+.card-text{
+
+}
+.modal-content{
 }
 
 
