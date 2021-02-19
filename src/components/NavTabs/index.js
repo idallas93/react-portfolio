@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, NavDropdown, Navbar} from "react-bootstrap";
 import "./style.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBars } from "@fortawesome/react-fontawesome"
+
 
 const NavTabs = () => {
   return (

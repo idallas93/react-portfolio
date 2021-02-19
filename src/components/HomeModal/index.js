@@ -18,11 +18,14 @@ function HomeModal() {
   
     return (
       <>
+        <div class='row'>
+        <div class="col-sm-12 text-center">
         <Button id="modal-buton" className="modal-button" variant="light" onClick={() => setAboutShow(true)}>About Me</Button>
         <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setPortfolioShow(true)}> Portfolio </Button>
         <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setStellaPics(true)}> My Dog </Button>
         <Button  id="modal-buton" className="modal-button" variant="light" onClick={() => setSmShow(true)}> Contact </Button>{' '}
-
+        </div>
+        </div>
       <Modal
         size="lg"
         show={aboutShow}

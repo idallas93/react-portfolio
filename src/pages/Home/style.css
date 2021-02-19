@@ -29,7 +29,7 @@
   }
   .jumbo-subtitle {
     font-size: 1rem;
-    color: #6b78af;
+    color: #495867;
   }
   #home-jumbo {
     width: 65vw;
@@ -51,7 +51,7 @@
   }
   .jumbo-subtitle {
     /* font-size: .8rem; */
-    color: #6b78af;
+    color: #495867;
   }
 
   #home-jumbo {
@@ -76,7 +76,7 @@
   }
   .jumbo-subtitle {
     font-size: 1.0rem;
-    color: #6b78af;
+    color: #495867;
   }
   #home-jumbo {
     text-align: center;
@@ -94,7 +94,7 @@
   }
   .jumbo-subtitle {
     font-size: 1.1rem;
-    color: #6b78af;
+    color: #495867;
   }
   #home-jumbo {
     text-align: center;
@@ -111,7 +111,7 @@
   }
   .jumbo-subtitle {
     font-size: 1.5rem;
-    color: #6b78af;
+    color: #495867;
   }
   #home-jumbo {
     width: 40vw;
@@ -126,12 +126,12 @@
 
 @media only screen and (min-width: 1750px) {
   .jumbo-header {
-    color: #f7882f;
+    color: #3E5C76;
     font-size: 2.5rem;
   }
   .jumbo-subtitle {
     font-size: 1.5rem;
-    color: #6b78af;
+    color: #495867;
   }
   #home-jumbo {
     width: 40vw;

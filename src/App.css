@@ -5,7 +5,7 @@
  
 } ;
 
-.wrapper {
+/* .wrapper {
   display: flex;
   flex-flow: row wrap;
   width: 100%;
@@ -14,13 +14,13 @@
 
 .wrapper > * {
   flex: 1 100%;
-}
+} */
 
  .App{
-  text-align: right;
+  /* text-align: right; */
   /* background-image: url("./pages/Assets/coding.png"); */
-  background-size: contain !important;
-  background-repeat: no-repeat;
+  /* background-size: contain !important;
+  background-repeat: no-repeat; */
 }
 
 
@@ -138,3 +138,30 @@
 
 }
 
+.header-wrapper {
+  position: relative;
+  background: url(mountains.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+
+
+  
+}
+
+.header-wrapper::before{
+
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

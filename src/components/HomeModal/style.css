@@ -1,7 +1,15 @@
 .modal-button {
     margin: 5px;
-    color: #6B78AF !important;
-    font-style: bold !important;
+    background-color: #FE5F55 !important;
+    color: #F7F7FF !important;
+    border: 1px solid black !important;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.modal-button:hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
 
 .about-me-modal {
@@ -29,41 +37,41 @@
 
 @media only screen and (min-width: 600px) {
   .modal-button {
-    height: 25px;
+    /* height: 25px;
     font-size: 10px;
     padding: revert;
-    width: 40vw;
+    width: 40vw; */
 
   };
 
   #modal-button{
-    width: 40vw !important;
+    /* width: 40vw !important; */
   }
 }
 
 /*Medium devices (landscape tablets >= 768px)*/
 @media only screen and (min-width: 768px) {
-  .modal-button {
+  /* .modal-button {
     height: 30px;
     font-size: 13px;
     padding: none;
-  }
+  } */
 }
 
 /*Large devices (laptops and desktops, >=600px)*/
 
 @media only screen and (min-width: 992px) {
-  .modal-button {
+  /* .modal-button {
     height: 40px;
     font-size: 13px;
     padding: revert;
-  }
+  } */
 }
 
 /*Extra Large devices (laptops and desktops <600px)*/
 
 @media only screen and (min-width: 1200px) {
-  .modal-button {
+  /* .modal-button {
     font-size: 6px;
     text-align: center;
     width: 7vw;
@@ -71,7 +79,7 @@
   };
   #modal-button{
     width: 7vw;
-  }
+  } */
 } ;
 
 

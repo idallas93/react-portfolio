@@ -7,23 +7,20 @@ import Portfolio from "./pages/Portfolio";
 import NavTabs from "./components/NavTabs";
 import FooterPage from "./components/Footer";
 import "./App.css";
-import coding from "./pages/Assets/coding.png"
+// import coding from "./pages/Assets/coding.png"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const App = () => {
   return (
     <div className="wrapper">
-    <div className="App" style={{backgroundImage:`url(${coding})`, backgroundSize: "contain"}}>
-      <div className="image-opacity">
+    <div className="App" >
         <Router>
-          <NavTabs className="header"/>
-          <div id="article" className="container">
+          {/* <NavTabs className="header"/> */}
             <Route exact path="/" component={Home} />
             <Route exact path="/Home" component={Home} />
             <Route exact path="/about" component={About} />
             <Route exact path="/portfolio" component={Portfolio} />
-          </div>
         </Router>
-      </div>
     </div>
     <FooterPage className="footer"/>
     </div>
@@ -31,3 +28,6 @@ const App = () => {
 };
 
 export default App;
+
+
+// style={{backgroundImage:`url(${coding})`, backgroundSize: "contain"}}

@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import { Jumbotron, Container } from "react-bootstrap";
-import HomeModal from "../../components/HomeModal"
+import { Container } from "react-bootstrap";
 import "./style.css";
+import Header from '../../components/Header'
+
+
 
 class Home extends Component {
   state = {
@@ -10,22 +12,10 @@ class Home extends Component {
 
   render() {
     return (
-      <Container className="home-container" style={{ marginLeft: "15vw" }}>
-        <div className="jumbo-div" >
-          <Jumbotron id="home-jumbo" style={{ background:"transparent", padding: "none" }} >
-            <div className="home-jumbo-items">
-            <p className="jumbo-header">
-                Isaac J. Dallas 
-            </p>
-            <p className="jumbo-subtitle">
-            Creative and driven web developer excited to collaboratively solve complex problems.
-            </p>
-            <HomeModal>
-            </HomeModal>
-            </div>
-          </Jumbotron>
-          </div>
-      </Container>
+      <div>
+        <Header></Header>
+       
+      </div>
     );
   }
 }
