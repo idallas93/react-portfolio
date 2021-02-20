@@ -1,7 +1,5 @@
-/* .header-wrapper {
-    position: relative;
-    background: url(water.jpg) no-repeat;
-    background-size: cover;
-    background-position: center;
+.header-wrapper {
+    overflow-x: hidden; 
+
     
-} */
+}

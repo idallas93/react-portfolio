@@ -20,6 +20,8 @@
   height: 45vw;
   position: relative;
   margin-left: 5vw;
+  overflow-x: hidden !important; 
+
 }
 
 @media only screen and (max-width: 600px) {

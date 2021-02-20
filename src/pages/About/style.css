@@ -22,7 +22,8 @@ h1 {
 
 .about-image{
   border-bottom: .15rem solid #495867 !important;
-  height: 60rem;
+  height: auto;
+  width: auto;
 }
 
 .card-text{
