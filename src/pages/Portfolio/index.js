@@ -6,7 +6,7 @@ import HotDawgr from "../Assets/HotDawgr.png";
 import Jsquiz from "../Assets/Jsquiz.png";
 import Burger from "../Assets/Burger.png";
 import Directory from "../Assets/Directory.png";
-import Weather from "../Assets/Weather.png";
+import Quiz from "../Assets/Quiz.png";
 
 
 class Portfolio extends Component {
@@ -38,12 +38,25 @@ class Portfolio extends Component {
               <a className="card-title-link" href="https://project-two-asika.herokuapp.com/"> HotDawgr App </a> 
               </Card.Title>
               <Card.Text>
-                This is the prototype for a dog play date matching app, think tinder but for dog owners to arrange dog play dates. This app has a working backend for user profiles built using mySQL/ Sequelize
+                This is the prototype for a dog play date matching app, think tinder but for dog owners to arrange dog play dates. This app has a working backend for user profiles built using mySQL/ Sequelize.
               </Card.Text>
               <a className="card-text-link" href="https://github.com/idallas93/HotDawgr-Application" style={{color: "#577399", fontWeight: "bold"}}> HotDawgr Repository </a> 
             </Card.Body>
-  
           </Card>
+
+          <Card className="portfolio-card">
+            <Card.Img variant="top" src={Quiz} height="300rem" width="200px"/>
+            <Card.Body style={{background: ""}}>
+              <Card.Title>
+              <a className="card-title-link" href="https://react-quiz-tailwind.herokuapp.com"> React Quiz Game </a> 
+              </Card.Title>
+              <Card.Text>
+                *Under Construction* This app is similar to the vanilla javascript quiz game but was built with react and styled with Tailwind. This app has a fully functional frontend that counts your score and tells you whether or not you got the right answer. Next steps on this project's roadmap include setting up a functioning backend that allows a user to sign in and record their high scores. This backend will be built with express, node.js and mongoDB.
+              </Card.Text>
+              <a className="card-text-link" href="https://github.com/idallas93/react-quiz" style={{color: "#577399", fontWeight: "bold"}}> React Quiz Application </a> 
+            </Card.Body>
+          </Card>
+
           <Card className="portfolio-card">
             <Card.Img variant="top" src={Burger} height="300rem" width="200px"/>
             <Card.Body style={{background: ""}}>
@@ -56,7 +69,6 @@ class Portfolio extends Component {
               <a className="card-text-link" href="https://github.com/idallas93/burger-app" style={{color: "#577399", fontWeight: "bold"}}> Burger Repository </a> 
             </Card.Body>
           </Card>
-        
           <Card className="portfolio-card"> 
             <Card.Img variant="top" src={Jsquiz} height="300rem" width="200px" />
             <Card.Body style={{background: ""}}>
@@ -79,18 +91,6 @@ class Portfolio extends Component {
               This application is a Node CLI that takes in information about employees and generates an HTML webpage that displays summaries for each person. This app also includes tests that are all passed.
               </Card.Text>
               <a className="card-text-link" href="https://github.com/idallas93/template-engine" style={{color: "#577399", fontWeight: "bold"}}> Employee Directory Repository </a> 
-            </Card.Body>
-          </Card>
-          <Card className="portfolio-card">
-            <Card.Img variant="top" src={Weather} height="300rem" width="200px"/>
-            <Card.Body style={{background: ""}}>
-              <Card.Title>
-              <a className="card-title-link" href="https://github.com/idallas93/Weather-Application"> Weather Application </a> 
-              </Card.Title>
-              <Card.Text>
-              This is an app that allows a user to see the weather outlook for multiple cities by searching for the city in the search bar. The user can also see the five day forcast for that city.
-              </Card.Text>
-              <a className="card-text-link" href="https://idallas93.github.io/Weather-Application/" style={{color: "#577399", fontWeight: "bold"}}> Weather Dashboard Repository </a> 
             </Card.Body>
           </Card>
       </Container>
