@@ -44,7 +44,7 @@ function ContactInfo() {
           className="d-inline-block align-top"
           alt="github logo"
         />
-        <a href="https://docs.google.com/document/d/1rGS3UGaQiPi4IF4g23_AtrB5sYNABxx25JU0Ur-uQgw/edit">
+        <a href="https://docs.google.com/document/d/1IYSrl969Tc1jdBYUjS13PTAorYX_fGbsIsKwNmuniDE/edit#heading=h.gjdgxs">
           {" "}
           Resume{" "}
         </a>
