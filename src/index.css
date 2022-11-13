@@ -12,13 +12,10 @@ code {
 }
 
 .App {
-  /* background-image: url("./pages/Assets/coding.png"); */
   background-size: contain;
   background-repeat: no-repeat;
   text-align: center;
   overflow-x: hidden; 
-
-
 }
 
 

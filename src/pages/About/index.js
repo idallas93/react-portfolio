@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import { Container, Card, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "./style.css";
 import AboutMe from "../Assets/AboutMe.png";
-
 
 class About extends Component {
   state = {

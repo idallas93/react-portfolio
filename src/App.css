@@ -141,18 +141,12 @@
 
 .header-wrapper {
   position: relative;
-  background: url(mountains.jpg) no-repeat;
+  background: url(~mountains.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 110vh;
   overflow-x: hidden !important; 
-  overflow-y: hidden; 
-
-  
-}
-
-.header-wrapper::before{
-
+  overflow-y: hidden;
 }
 
 .main-info {

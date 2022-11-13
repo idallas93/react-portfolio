@@ -1,3 +1,4 @@
+import * as React from 'react'
 import "./style.css";
 import { Carousel } from "react-bootstrap";
 import Stella1 from "../../pages/Assets/Stella1.png";
