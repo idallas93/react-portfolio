@@ -6,9 +6,6 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
     "@fortawesome/free-solid-svg-icons": "^5.15.2",
     "@fortawesome/react-fontawesome": "^0.1.14",
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
     "react": "^17.0.1",
@@ -20,10 +17,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "webpack",
+    "start":  "webpack serve"
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +39,12 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "babel-core": "^6.26.3",
+    "css-loader": "^6.7.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.5.0",
+    "webpack-cli": "^4.10.0"
   }
 }

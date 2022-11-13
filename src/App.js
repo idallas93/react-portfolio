@@ -4,10 +4,8 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
-import NavTabs from "./components/NavTabs";
 import FooterPage from "./components/Footer";
 import "./App.css";
-// import coding from "./pages/Assets/coding.png"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 const App = () => {
@@ -28,6 +26,3 @@ const App = () => {
 };
 
 export default App;
-
-
-// style={{backgroundImage:`url(${coding})`, backgroundSize: "contain"}}
