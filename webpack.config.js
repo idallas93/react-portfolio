@@ -12,7 +12,7 @@ const {
 module.exports = {
     mode: NODE_ENV,
     target: 'web',
-    entry: __dirname + '/src/index.js',
+    entry: __dirname + '/src/index.tsx',
     module: {
         rules: [
             {

@@ -1,12 +1,14 @@
-
 {
-    "compilerOptions": {
-      "outDir": "./built",
-      "allowJs": true,
-      "target": "es5",
-      "jsx": "react-jsx"
-    },
-    "include": ["./src/**/*", "index.d.ts"],
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es5",
+    "jsx": "react-jsx",
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    }
+    "esModuleInterop": true
+  },
+  "include": [
+    "./src/**/*",
+    "index.d.ts"
+  ]
+}

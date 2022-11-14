@@ -16,6 +16,7 @@ const Header = () => {
       </p>
       <HomeModal>
       </HomeModal>
+      <h2> Please be aware, this portfolio is outdated and actively under construction. I was proud of it as a junior developer but now it needs some work! At the very least you'll be able to access my resume, view contact information, and see pictures of my dog Stella. V2 will include a completely different UI/UX and feature projects showcasing React/Typescript, Java, and more! </h2>
       </div>
     </div>
     )

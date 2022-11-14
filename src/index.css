@@ -5,6 +5,8 @@ body {
     "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
+  height: 100%;
 }
 
 code {
@@ -16,6 +18,10 @@ code {
   background-repeat: no-repeat;
   text-align: center;
   overflow-x: hidden; 
+}
+html {
+  overflow: hidden;
+  height: 100%;
 }
 
 
