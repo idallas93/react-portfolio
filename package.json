@@ -20,8 +20,10 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "webpack serve",
-    "heroku-prebuild": "npm install --dev"
+    "start": "webpack serve"
+  },
+  "engines": {
+    "node": "19.x"
   },
   "eslintConfig": {
     "extends": [
