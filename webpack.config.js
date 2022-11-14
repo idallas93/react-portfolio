@@ -5,9 +5,13 @@ const HTMLWebpackPluginConfig = new HTMLWebpackPlugin({
     inject: 'body'
 })
 const path = require('path');
+const {
+    NODE_ENV = 'production',
+  } = process.env;
 
 module.exports = {
-    mode: 'production',
+    mode: NODE_ENV,
+    target: 'web',
     entry: __dirname + '/src/index.js',
     module: {
         rules: [
@@ -34,7 +38,7 @@ module.exports = {
     },
     output: {
         filename: 'transformed.js',
-        path: __dirname + '/build',
+        path: path.resolve(__dirname + '/build'),
     },
     devtool: "source-map",
     resolve: {

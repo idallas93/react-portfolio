@@ -1,63 +1,64 @@
 {
-  "name": "react-portfolio",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.34",
-    "@fortawesome/free-solid-svg-icons": "^5.15.2",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "axios": "^0.21.0",
-    "bootstrap": "^4.5.3",
-    "express": "^4.18.2",
-    "react": "^17.0.1",
-    "react-bootstrap": "^1.4.0",
-    "react-dom": "^17.0.1",
-    "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "5.0.1",
-    "source-map-loader": "^4.0.1",
-    "ts-loader": "^9.4.1",
-    "web-vitals": "^0.2.4"
-  },
-  "scripts": {
-    "build": "webpack",
-    "start": "webpack serve"
-  },
-  "engines": {
-    "node": "16.x",
-    "npm": "8.x"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "@types/jest": "^29.2.2",
-    "@types/node": "^18.11.9",
-    "@types/react": "^18.0.25",
-    "@types/react-dom": "^18.0.8",
-    "@types/react-router-dom": "^5.3.3",
-    "babel-core": "^6.26.3",
-    "css-loader": "^6.7.2",
-    "file-loader": "^6.2.0",
-    "gh-pages": "^3.1.0",
-    "html-webpack-plugin": "^5.5.0",
-    "typescript": "^4.8.4",
-    "webpack": "^5.5.0",
-    "webpack-cli": "^4.10.0"
-  }
+    "name": "react-portfolio",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@fortawesome/fontawesome-svg-core": "^1.2.34",
+        "@fortawesome/free-solid-svg-icons": "^5.15.2",
+        "@fortawesome/react-fontawesome": "^0.1.14",
+        "axios": "^0.21.0",
+        "bootstrap": "^4.5.3",
+        "express": "^4.18.2",
+        "react": "^17.0.1",
+        "react-bootstrap": "^1.4.0",
+        "react-dom": "^17.0.1",
+        "react-router": "^5.2.0",
+        "react-router-dom": "^5.2.0",
+        "react-scripts": "5.0.1",
+        "source-map-loader": "^4.0.1",
+        "ts-loader": "^9.4.1",
+        "web-vitals": "^0.2.4"
+    },
+    "scripts": {
+        "build": "webpack",
+        "start": "webpack serve"
+    },
+    "engines": {
+        "node": ">=16.0.0",
+        "npm": ">=7.0.0"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "@types/jest": "^29.2.2",
+        "@types/node": "^18.11.9",
+        "@types/react": "^18.0.25",
+        "@types/react-dom": "^18.0.8",
+        "@types/react-router-dom": "^5.3.3",
+        "babel-core": "^6.26.3",
+        "css-loader": "^6.7.2",
+        "file-loader": "^6.2.0",
+        "gh-pages": "^3.1.0",
+        "html-webpack-plugin": "^5.5.0",
+        "typescript": "^4.8.4",
+        "webpack": "^5.5.0",
+        "webpack-cli": "^4.10.0",
+        "webpack-dev-server": "^4.11.1"
+    }
 }
