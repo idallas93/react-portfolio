@@ -1,7 +1,6 @@
 import { Component } from "react";
 import { Container, Card } from "react-bootstrap";
 import "./style.css";
-import HotParkr from "../Assets/HotParkr.png";
 import Tooltip from "@mui/material/Tooltip/Tooltip";
 
 class Portfolio extends Component {
@@ -14,7 +13,7 @@ class Portfolio extends Component {
       <Container className="portfolio-container" style={{ background: "" }}>
 
         <Card className="portfolio-card">
-          <Card.Img variant="top" src={HotParkr} height="300rem" width="50rem" />
+          <Card.Img variant="top" src={"https://i.imgur.com/YGKEf86.png"} height="300rem" width="50rem" />
           <Card.Body style={{ background: "" }}>
             <Card.Title>
               <a className="card-title-link" href="https://project-three-skirk.herokuapp.com/"> HotParkr App</a>

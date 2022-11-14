@@ -1,14 +1,6 @@
 import * as React from 'react'
 import "./style.css";
 import { Carousel } from "react-bootstrap";
-import Stella1 from "../../pages/Assets/Stella1.png";
-import Stella2 from "../../pages/Assets/Stella2.png";
-import Stella3 from "../../pages/Assets/Stella3.png";
-import Stella4 from "../../pages/Assets/Stella4.png";
-import Stella5 from "../../pages/Assets/Stella5.png";
-import Stella6 from "../../pages/Assets/Stella6.png";
-import Stella7 from "../../pages/Assets/Stella7.png";
-import Stella8 from "../../pages/Assets/Stella8.png";
 
 function StellaCarousel() {
 
@@ -17,7 +9,7 @@ function StellaCarousel() {
 <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella1} 
+      src={"https://i.imgur.com/rGtNC0r.png"} 
       alt="Third slide"
     />
 
@@ -29,84 +21,82 @@ function StellaCarousel() {
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella2} 
+      src={"https://i.imgur.com/UVCXdzu.jpg"} 
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Puppachino</h3>
-      <p>Stella's favorite treat</p>
+      <h3>Beach Day</h3>
+      <p>Sandy nose</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella3}
+      src={"https://i.imgur.com/cYfGQjM.jpg"}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Alert</h3>
-      <p>Great watch dog</p>
+      <h3>Hiking</h3>
+      <p>Stella needed a water break</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella4}
+      src={"https://i.imgur.com/zLmdpwP.jpg"}
       alt="Third slide"
     />
 
     <Carousel.Caption>
-      <h3>Football</h3>
-      <p>Natural talent</p>
+      <h3>Tennis Ball</h3>
+      <p>She loves fetch more than anything</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella5}
+      src={"https://i.imgur.com/O1WSJi3.jpg"}
       alt="Third slide"
     />
 
+    <Carousel.Caption>
+      <h3>Another beach day</h3>
+      <p>The only thing she loves more than fetch is playing fetch in the water</p>
+    </Carousel.Caption>
+  </Carousel.Item>
+  <Carousel.Item>
+    <img
+      className="d-block w-100"
+      src={"https://i.imgur.com/VeFjF9u.jpg"}
+      alt="Third slide"
+    />
     <Carousel.Caption>
       <h3>Nap time</h3>
-      <p>Only dog I've known to only sleep on her back</p>
+      <p>What a beautiful smile</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella6}
+      src={'https://i.imgur.com/4rUUI5d.jpg'}
       alt="Third slide"
     />
-
     <Carousel.Caption>
-      <h3>All I want for Christmas is you</h3>
-      <p>Would've preferred a Chanukah bush tbh</p>
+      <h3>Stella likes to vote in local elections</h3>
+      <p>And wear a surgery donut for nap time</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
     <img
       className="d-block w-100"
-      src={Stella7}
-      alt="Third slide"
-    />
-
-    <Carousel.Caption>
-      <h3>Big yawn!</h3>
-      <p>Nap time?</p>
-    </Carousel.Caption>
-  </Carousel.Item>
-  <Carousel.Item>
-    <img
-      className="d-block w-100"
-      src={Stella8}
+      src={"https://i.imgur.com/WNLTqlc.png"}
       alt="Third slide"
     />
     <Carousel.Caption>
-      <h3>Snow Day</h3>
-      <p>This is the last picture</p>
+      <h3>Alert</h3>
+      <p>I must've said treat or walk</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>

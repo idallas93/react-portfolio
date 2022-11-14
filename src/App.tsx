@@ -7,11 +7,10 @@ import Portfolio from "./pages/Portfolio";
 import FooterPage from "./components/Footer";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"
-import background from "./pages/Assets/mountains.jpg";
 
 const App = () => {
   return (
-    <div className="wrapper" style={{ backgroundImage: `url(${background})` }}>
+    <div className="wrapper" style={{ backgroundImage: `url(https://i.imgur.com/HWbKq9B.jpg)` }}>
     <div className="App" >
         <Router>
           {/* <NavTabs className="header"/> */}

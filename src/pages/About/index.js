@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { Container, Card, Button } from "react-bootstrap";
 import "./style.css";
-import AboutMe from "../Assets/AboutMe.png";
 
 class About extends Component {
   state = {
@@ -15,7 +14,7 @@ class About extends Component {
           <Card.Img
             width="25%"
             variant="top"
-            src={AboutMe}
+            src={"https://i.imgur.com/qQMCCub.png"}
             className='about-image'
           />
           <Card.Body className ='about-body'>
