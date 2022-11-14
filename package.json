@@ -23,6 +23,9 @@
     "build": "webpack",
     "start": "webpack serve"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
