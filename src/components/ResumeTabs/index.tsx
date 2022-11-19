@@ -316,9 +316,9 @@ const ResumeTabs = () => {
           < TerminalIcon/>
         </Grid>
         <List sx={ isMobile ? {
-          columns: "2",
-          webkitColumns: "2",
-          mozcColumns: "2",
+          columns: "1",
+          webkitColumns: "1",
+          mozcColumns: "1",
         } : {
           columns: "3",
           webkitColumns: "3",
