@@ -1,4 +1,4 @@
-import { Typography } from '@mui/material';
+import { Typography, Box } from '@mui/material';
 import Button from '@mui/material/Button';
 import Grid from '@mui/material/Grid';
 import { useNav } from '../../utilHooks/useNav';
@@ -9,13 +9,13 @@ const HomePage = () => {
 
   return (
     <section ref={homePageRef} id='homeContainer'>
+      <Box
+     display="flex"
+     justifyContent="center"
+     alignItems="center"
+     minHeight="100vh"
+      >
       <Grid
-        container
-        spacing={0}
-        direction="column"
-        alignItems="left"
-        justifyContent="center"
-        style={{ minHeight: '100vh' }}
       >
         <Grid>
           <Typography variant="h5" color="primary.contrastText">
@@ -47,6 +47,7 @@ const HomePage = () => {
           </Button>
         </Grid>
       </Grid>
+      </Box>
     </section>
   )
 }

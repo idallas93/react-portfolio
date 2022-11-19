@@ -2,7 +2,7 @@ import ReactDOM from "react-dom";
 import * as React from "react"
 import "./index.css";
 import App from "./App";
-import { createTheme } from "@mui/material/styles";
+import { createTheme, responsiveFontSizes } from "@mui/material/styles";
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 
@@ -32,8 +32,7 @@ declare module '@mui/material/styles' {
     };
   }
 }
-const theme = createTheme({
-
+let theme = createTheme({
   palette: {
     primary: {
       main: "#004369",
@@ -96,6 +95,30 @@ const theme = createTheme({
     },
   },
 });
+
+theme = responsiveFontSizes(theme);
+
+// theme.typography.h1 = {
+//   fontSize: '6rem',
+//   '@media (min-width:600px)': {
+//     fontSize: '4.0rem',
+//   },
+//   [theme.breakpoints.up('md')]: {
+//     fontSize: '5.0rem',
+//   },
+// };
+
+// theme.typography.h3 = {
+//   fontSize: '3.75rem',
+//   '@media (min-width:600px)': {
+//     fontSize: '2.75rem',
+//   },
+//   [theme.breakpoints.up('md')]: {
+//     fontSize: '3.25rem',
+//   },
+// };
+
+
 const rootElement = document.getElementById("root")
 
 ReactDOM.render(
