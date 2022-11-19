@@ -9,7 +9,7 @@ const ContactPage = () => {
   return (
     <section ref={contactPageRef} id='contactPageContainer'>
       <Box
-        sx={{ height: "20%", width: "100%" }}
+        sx={{ height: "10%", width: "100%" }}
       >
         <Grid
           container
@@ -26,7 +26,7 @@ const ContactPage = () => {
         </Grid>
       </Box>
       <Box
-        sx={{ height: "20%", width: "100%" }}
+        sx={{ height: "90%", width: "100%" }}
       >
       </Box>
     </section>

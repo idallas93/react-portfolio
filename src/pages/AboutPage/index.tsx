@@ -8,7 +8,7 @@ const AboutPage = () => {
   return (
     <section ref={aboutPageRef} id='aboutPageContainer'>
        <Box
-       sx={{height: "20%", width: "100%"}}
+       sx={{height: "10%", width: "100%"}}
         >
         <Grid
           container
@@ -22,7 +22,7 @@ const AboutPage = () => {
           </Typography>
         </Grid>
         </Box>
-   <Box sx={{height: "80%", width: "100%", overflowY: "scroll" }}>
+   <Box sx={{height: "90%", width: "100%", overflowY: "scroll" }}>
         <Grid container spacing={3} alignItems="stretch">
           <Grid item xs={12} sm={12} md={6} lg={6}>
             <Box

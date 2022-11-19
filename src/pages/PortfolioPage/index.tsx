@@ -12,7 +12,7 @@ const PortfolioPage = () => {
   return (
     <section ref={portfolioPageRef} id='portfolioPageContainer'>
       <Box
-        sx={{ height: "20%", width: "100%" }}
+        sx={{ height: "10%", width: "100%" }}
       >
         <Grid
           container
@@ -26,7 +26,7 @@ const PortfolioPage = () => {
           </Typography>
         </Grid>
       </Box>
-      <Box sx={{ height: "80%", width: "100%", overflowY: "scroll" }}>
+      <Box sx={{ height: "90%", width: "100%", overflowY: "scroll" }}>
         <Grid container rowSpacing={1} columnSpacing={1} alignItems="stretch">
           {
             portfolioData.map((cardData, index) => {

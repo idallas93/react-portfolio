@@ -13,7 +13,7 @@ const StellaPage = () => {
   return (
     <section ref={stellaPageRef} id='stellaPageContainer'>
       <Box
-        sx={{ height: "20%", width: "100%" }}
+        sx={{ height: "10%", width: "100%" }}
       >
         <Grid
           container
@@ -27,7 +27,7 @@ const StellaPage = () => {
           </Typography>
         </Grid>
       </Box>
-      <Box sx={{ height: "80%", width: "100%", overflowY: "scroll" }}>
+      <Box sx={{ height: "90%", width: "100%", overflowY: "scroll" }}>
         <ImageList variant="masonry" cols={3} gap={8} sx={{ overflow: "scroll" }}>
           {imageData.map((item) => (
             <ImageListItem key={item.img}>

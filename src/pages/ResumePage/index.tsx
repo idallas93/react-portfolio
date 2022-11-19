@@ -10,7 +10,7 @@ const ResumePage = () => {
   return (
     <section ref={contactPageRef} id='resumePageContainer'>
       <Box
-        sx={{ height: "20%", width: "100%" }}
+        sx={{ height: "10%", width: "100%" }}
       >
         <Grid
           container
@@ -24,7 +24,7 @@ const ResumePage = () => {
           </Typography>
         </Grid>
       </Box>
-      <Box sx={{ height: "80%", width: "100%", overflowY: "scroll" }}>
+      <Box sx={{ height: "90%", width: "100%", overflowY: "scroll" }}>
         <ResumeTabs />
       </Box>
     </section>
