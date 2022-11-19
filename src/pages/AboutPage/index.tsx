@@ -50,7 +50,7 @@ const AboutPage = () => {
                 I also just started working on my website and side projects again after about two years of inactivity. Check back soon and you'll be sure to see a ton of progress.
                </Typography>
                <Typography variant="h6" color="primary.light">
-                Here are some of the technologies that I work with almost every day:
+                In my free time I enjoy running, bar trivia, and spending time with my fiancé Chelsea and black lab Stella (who is featured prominently on this site).
                </Typography>
             </Box>
           </Grid>
