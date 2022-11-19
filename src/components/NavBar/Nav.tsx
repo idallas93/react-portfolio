@@ -17,7 +17,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import HikingIcon from '@mui/icons-material/Hiking';
 import NavLink from './NavLink';
-import { navLinks } from './navLinks';
+import { navLinks } from './NavLinks';
 import "./style.css";
 import Button from '@mui/material/Button';
 import CodeIcon from '@mui/icons-material/Code';
