@@ -65,7 +65,6 @@ let theme = createTheme({
         root: {
           color: "#564B4F",
           fontFamily: 'BlinkMacSystemFont',
-          overflowY: "scroll"
         }
       }
     },

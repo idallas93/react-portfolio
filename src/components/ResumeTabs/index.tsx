@@ -29,7 +29,7 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <Box sx={{ p: 3, width: "75%" }}>
+        <Box sx={{ p: 3, width: "75%", overflowX: "scroll" }}>
           <Typography>{children}</Typography>
         </Box>
       )}
@@ -107,7 +107,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="h5" color="primary.main" sx={{ padding: "10px" }}>
+          <Typography variant="h5" color="primary.main"  sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             Software Engineer @ Shibumi
           </Typography>
           <ShibumiIcon />
@@ -118,7 +118,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="body1" color="secondary.main" sx={{ padding: "10px" }}>
+          <Typography variant="body1" color="secondary.main"  sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             June 2021 - Present
           </Typography>
         </Grid>
@@ -167,7 +167,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="h5" color="primary.main" sx={{ padding: "10px" }}>
+          <Typography variant="h5" color="primary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             Student @ Columbia University
           </Typography>
           <ColumbiaIcon />
@@ -178,7 +178,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="body1" color="secondary.main" sx={{ padding: "10px" }}>
+          <Typography variant="body1" color="secondary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             September 2020 - February 2021
           </Typography>
         </Grid>
@@ -202,7 +202,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="h5" color="primary.main" sx={{ padding: "10px" }}>
+          <Typography variant="h5" color="primary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             Clinical Trial Management @ Flatiron Health
           </Typography>
           <FlatironIcon />
@@ -213,7 +213,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="body1" color="secondary.main" sx={{ padding: "10px" }}>
+          <Typography variant="body1" color="secondary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             August 2018 - September 2020
           </Typography>
         </Grid>
@@ -256,7 +256,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="h5" color="primary.main" sx={{ padding: "10px" }}>
+          <Typography variant="h5" color="primary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             Advisory Associate @ KPMG
           </Typography>
           <KpmgIcon />
@@ -267,7 +267,7 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="body1" color="secondary.main" sx={{ padding: "10px" }}>
+          <Typography variant="body1" color="secondary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             July 2016 - August 2018
           </Typography>
         </Grid>
@@ -310,19 +310,24 @@ const ResumeTabs = () => {
           justifyContent="flex-start"
           alignItems="center"
         >
-          <Typography variant="h5" color="primary.main" sx={{ padding: "10px" }}>
+          <Typography variant="h5" color="primary.main" sx={ !isMobile ? { padding: "10px" } : {padding: "0px"} }>
             Recent Technologies Used
           </Typography>
-          < TerminalIcon />
+          < TerminalIcon/>
         </Grid>
-        <List sx={{
+        <List sx={ isMobile ? {
+          columns: "2",
+          webkitColumns: "2",
+          mozcColumns: "2",
+        } : {
           columns: "3",
           webkitColumns: "3",
-          mozcColumns: "3"
-        }}>
+          mozcColumns: "3",
+        }
+      }>
           <ListItem>
             <ListItemIcon>
-              <ReactIcon />
+              <ReactIcon sx={{fontSize: "3rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="React.js"
@@ -330,7 +335,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <TypeScriptIcon fontSize={"large"} />
+              <TypeScriptIcon sx={{fontSize: "3rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="TypeScript"
@@ -338,7 +343,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <JavascriptIcon fontSize={"large"} />
+              <JavascriptIcon sx={{fontSize: "3rem"}} />
             </ListItemIcon>
             <ListItemText
               primary="JavaScript (ES6+)"
@@ -346,7 +351,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <NodeIcon fontSize={"large"} />
+              <NodeIcon sx={{fontSize: "3rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="Node.js"
@@ -354,7 +359,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <JavaIcon fontSize={"large"} />
+              <JavaIcon sx={{width: "3.5rem", height: "3.5rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="Java"
@@ -362,7 +367,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <GraphQlIcon fontSize={"large"} />
+              <GraphQlIcon sx={{fontSize: "3rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="GraphQL"
@@ -370,7 +375,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <PhpIcon fontSize={"large"} />
+              <PhpIcon sx={{fontSize: "3rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="PHP"
@@ -378,7 +383,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <SqlIcon fontSize={"large"} />
+              <SqlIcon sx={{width: "3.5rem", height: "3.5rem"}}/>
             </ListItemIcon>
             <ListItemText
               primary="SQL"
@@ -386,7 +391,7 @@ const ResumeTabs = () => {
           </ListItem>
           <ListItem>
             <ListItemIcon>
-              <MongoIcon fontSize={"large"} />
+              <MongoIcon sx={{width: "3.5rem", height: "3.5rem"}} />
             </ListItemIcon>
             <ListItemText
               primary="MongoDB"
