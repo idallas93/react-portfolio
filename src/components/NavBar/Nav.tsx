@@ -3,7 +3,6 @@ import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import IconButton from '@mui/material/IconButton';
-import Typography from '@mui/material/Typography';
 import Badge from '@mui/material/Badge';
 import MenuItem from '@mui/material/MenuItem';
 import Menu from '@mui/material/Menu';
@@ -105,39 +104,39 @@ const Nav = () => {
                         {idx === 0 &&
                             <>
                                 <Badge>
-                                    <AssignmentIndIcon sx={{color: "primary.contrastText"}} />
+                                    <AssignmentIndIcon sx={{ color: "primary.contrastText" }} />
                                 </Badge>
                                 <p style={{ marginBottom: 0 }}><NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} /></p>
                             </>
                         }
-                           {idx === 1 &&
+                        {idx === 1 &&
                             <>
                                 <Badge>
-                                    <HikingIcon sx={{color: "primary.contrastText"}} />
+                                    <HikingIcon sx={{ color: "primary.contrastText" }} />
                                 </Badge>
                                 <p style={{ marginBottom: 0 }}><NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} /></p>
                             </>
                         }
-                           {idx === 2 &&
+                        {idx === 2 &&
                             <>
                                 <Badge>
-                                    <CodeIcon sx={{color: "primary.contrastText"}} />
+                                    <CodeIcon sx={{ color: "primary.contrastText" }} />
                                 </Badge>
                                 <p style={{ marginBottom: 0 }}><NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} /></p>
                             </>
                         }
-                           {idx === 3 &&
+                        {idx === 3 &&
                             <>
                                 <Badge>
-                                    <PetsIcon sx={{color: "primary.contrastText"}} />
+                                    <PetsIcon sx={{ color: "primary.contrastText" }} />
                                 </Badge>
                                 <p style={{ marginBottom: 0 }}><NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} /></p>
                             </>
                         }
-                           {idx === 4 &&
+                        {idx === 4 &&
                             <>
                                 <Badge>
-                                    <MailIcon sx={{color: "primary.contrastText"}} />
+                                    <MailIcon sx={{ color: "primary.contrastText" }} />
                                 </Badge>
                                 <p style={{ marginBottom: 0 }}><NavLink key={idx} navLinkId={navLinkId} scrollToId={scrollToId} /></p>
                             </>
@@ -149,17 +148,16 @@ const Nav = () => {
     );
 
     return (
-        <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="static">
+        <Box sx={{ flexGrow: 1}}>
+            <AppBar position="static" sx={{minHeight: "90px"}}>
                 <Toolbar>
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="div"
-                        sx={{ display: { xs: 'none', sm: 'block' } }}
-                    >
-                        <Avatar alt="Stella" src="https://ih1.redbubble.net/image.2447542830.1689/st,small,507x507-pad,600x600,f8f8f8.jpg" />
-                    </Typography>
+                    <Box sx={{ flexGrow: 0 }}>
+                        <Avatar alt="Stella" src="https://ih1.redbubble.net/image.2447542830.1689/st,small,507x507-pad,600x600,f8f8f8.jpg" sx={{
+                                height: "75px",
+                                width: "75px",
+                                margin: "5px"
+                        }}/>
+                    </Box>
                     <Box sx={{ flexGrow: 1 }} />
                     <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                         {navLinks.map(({ navLinkId, scrollToId }, idx) => (
@@ -208,12 +206,12 @@ const Nav = () => {
                             onClick={handleMobileMenuOpen}
                             color="inherit"
                         >
-                            <MenuIcon />
+                            <MenuIcon sx={{fontSize: "4rem"}}/>
                         </IconButton>
                     </Box>
                 </Toolbar>
             </AppBar>
-            {renderMobileMenu}
+            {renderMobileMenu}   
             {renderMenu}
         </Box>
     );
