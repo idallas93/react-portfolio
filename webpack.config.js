@@ -13,6 +13,11 @@ module.exports = {
     mode: NODE_ENV,
     target: 'web',
     entry: __dirname + '/src/index.tsx',
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     module: {
         rules: [
             {
