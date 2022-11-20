@@ -104,6 +104,46 @@ export const imageData = [{
   img: 'https://i.imgur.com/WNLTqlc.png',
   title: 'Alert'
 },
+{
+  img: 'https://i.imgur.com/CVmp4hq.jpg',
+  title: 'Stella1'
+},
+{
+  img: 'https://i.imgur.com/ii2D15V.jpg',
+  title: 'Stella2'
+},
+{
+  img: 'https://i.imgur.com/bNGuDHZ.jpg',
+  title: 'Stella3'
+},
+{
+  img: 'https://i.imgur.com/CFmNhWB.jpg',
+  title: 'Stella4'
+},
+{
+  img: 'https://i.imgur.com/TmvMSwx.jpg',
+  title: 'Stella5'
+},
+{
+  img: 'https://i.imgur.com/A2i04jz.jpg',
+  title: 'Stella6'
+},
+{
+  img: 'https://i.imgur.com/BRpa3of.jpg',
+  title: 'Stella7'
+},
+{
+  img: 'https://i.imgur.com/wFj61Xe.jpg',
+  title: 'Stella8'
+},
+{
+  img: 'https://i.imgur.com/frlZQsX.jpg',
+  title: 'Stella9'
+},
+{
+  img: 'https://i.imgur.com/IL8kbU0.jpg',
+  title: 'Stella10'
+},
 
 
 ]
